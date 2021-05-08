@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'Ubuntu', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.parallax {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  position: relative;   /*to be able to position absolute the text inside parallax imgs */
+  /* this is that made a parralax effect */
+  background-attachment: fixed;
+}
+
+.parallax-img1 {
+  background-image: url('../img/jelly1.jpg');
+  min-height: 100%;
+}
+
+.parallax-img2 {
+  background-image: url('../img/jelly2.jpg');
+  min-height: 400px;
+}
+
+.parallax-img3 {
+  background-image: url('../img/jelly3.jpg');
+  min-height: 400px;
+}
+
+.card {
+  padding: 20px 70px;
+}
+
+.dark-card {
+  background-color: DarkSlateGray;
+  color: LightGray;
+}
+
+.light-card {
+  background-color: Gainsboro;
+  color: DimGrey;
+}
+
+.parallaximg-title {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.parallaximg-title span {
+  display: inline-block;
+  padding: 5px;
+  opacity: 0.8;
+  color: white;
+  background: CadetBlue;
+}
+
+.parallaximg-title .fuchsia {
+  background-color: DarkOrchid;
+}
+
+h2 {
+  text-align: center;
+}
